@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Sample EC2
+Resources:
+  MyEC2Instance: 
+    Type: AWS::EC2::Instance
+    Properties:
+       ImageId: "ami-0375ab65ee943a2a6"
+       InstanceType: t2.micro
+       KeyName: sydpem
+
+    
+  
